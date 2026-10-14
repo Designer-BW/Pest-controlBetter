@@ -1,0 +1,13 @@
+{
+  "name": "better-servants-prototype",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Homepage prototype for Better Servants (Pty) Ltd — pest control, Gaborone",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

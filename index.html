@@ -1,0 +1,804 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Better Servants (Pty) Ltd — commercial, residential and industrial pest control services in Gaborone, Botswana.">
+  <title>Better Servants | Pest Control Gaborone</title>
+  <link rel="icon" type="image/png" href="assets/images/logo.png">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;0,800;1,500;1,700&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap 5.3 + icons -->
+  <link rel="preconnect" href="https://images.pexels.com">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+  <script>document.documentElement.classList.add('js');</script>
+</head>
+<body>
+
+  <!-- Preloader -->
+  <div class="preloader" id="preloader" aria-hidden="true">
+    <div class="preloader-inner">
+      <span class="preloader-ring"></span>
+      <img class="preloader-logo" src="assets/images/logo.png" width="110" height="46" alt="">
+    </div>
+  </div>
+
+  <!-- Cursor -->
+  <div class="cursor-dot" aria-hidden="true"></div>
+  <div class="cursor-ring" aria-hidden="true"></div>
+
+  <!-- Top bar -->
+  <div class="topbar">
+    <div class="container">
+      <ul class="topbar-list">
+        <li><i class="bi bi-geo-alt"></i>Plot 00000, Gaborone West Industrial, Botswana</li>
+        <li><i class="bi bi-envelope"></i>hello@betterservants-demo.co.bw</li>
+        <li><i class="bi bi-clock"></i>Mon – Sat: 07:30 – 18:00</li>
+      </ul>
+      <div class="topbar-social">
+        <a href="#" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+        <a href="#" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+        <a href="#" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+        <a href="#" aria-label="WhatsApp"><i class="bi bi-whatsapp"></i></a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header class="main-header" id="header">
+    <div class="container">
+      <div class="header-bar">
+        <a href="#" class="brand" aria-label="Better Servants home">
+          <img src="assets/images/logo.png" width="128" height="54" alt="Better Servants (Proprietary) Limited">
+        </a>
+
+        <nav class="main-nav" aria-label="Primary">
+          <a href="#" class="active">Home</a>
+          <a href="#">About Us</a>
+          <a href="#">Services <i class="bi bi-chevron-down"></i></a>
+          <a href="#">Pricing</a>
+          <a href="#">Blog</a>
+          <a href="#">Contact Us</a>
+        </nav>
+
+        <div class="header-actions">
+          <a href="#" class="header-phone">
+            <span class="ico"><i class="bi bi-telephone"></i></span>
+            <span>24/7 Emergency<strong>+267 71 000 000</strong></span>
+          </a>
+          <a href="#" class="btn-default">Book Inspection <span class="btn-ico"><i class="bi bi-arrow-up-right"></i></span></a>
+          <button class="nav-toggle" type="button" data-bs-toggle="offcanvas" data-bs-target="#mobileMenu" aria-controls="mobileMenu" aria-label="Open menu">
+            <i class="bi bi-list"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile offcanvas menu -->
+  <div class="offcanvas offcanvas-end mobile-menu" tabindex="-1" id="mobileMenu" aria-labelledby="mobileMenuLabel">
+    <div class="offcanvas-header">
+      <h5 class="offcanvas-title text-white" id="mobileMenuLabel">Menu</h5>
+      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+      <nav aria-label="Mobile">
+        <a href="#">Home</a>
+        <a href="#">About Us</a>
+        <a href="#">Services</a>
+        <a href="#">Pricing</a>
+        <a href="#">Blog</a>
+        <a href="#">Contact Us</a>
+      </nav>
+      <a href="#" class="btn-default mt-4">Book Inspection <span class="btn-ico"><i class="bi bi-arrow-up-right"></i></span></a>
+      <p class="mt-4 mb-1 small">24/7 Emergency line</p>
+      <p class="fw-bold fs-5">+267 71 000 000</p>
+    </div>
+  </div>
+
+  <main>
+
+    <!-- ===================== HERO ===================== -->
+    <section class="hero dark-section">
+      <div class="hero-bg" data-parallax="0.25">
+        <img src="https://images.pexels.com/photos/9245158/pexels-photo-9245158.jpeg?auto=compress&cs=tinysrgb&w=1920"
+             width="1920" height="1280" alt="Pest control technician in protective coveralls spraying treatment" fetchpriority="high">
+      </div>
+
+      <div class="container">
+        <div class="row align-items-end">
+          <div class="col-lg-8">
+            <span class="eyebrow" data-anim>Licensed pest professionals · Gaborone</span>
+            <h1 data-split>Keeping Gaborone homes &amp; businesses <em>pest-free</em></h1>
+            <p class="hero-lead" data-anim style="--d:.3s">Commercial, residential and industrial pest control from a local team that turns up on time, treats safely and guarantees the result.</p>
+            <div class="hero-btns" data-anim style="--d:.45s">
+              <a href="#" class="btn-default">Get a Free Quote <span class="btn-ico"><i class="bi bi-arrow-up-right"></i></span></a>
+              <a href="#" class="btn-default btn-outline-variant">Our Services <span class="btn-ico"><i class="bi bi-arrow-up-right"></i></span></a>
+            </div>
+            <ul class="hero-checks" data-anim style="--d:.6s">
+              <li><i class="bi bi-patch-check-fill"></i>Registered, family-safe products</li>
+              <li><i class="bi bi-patch-check-fill"></i>Same-day call-outs</li>
+              <li><i class="bi bi-patch-check-fill"></i>90-day re-treat guarantee</li>
+            </ul>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="hero-card" data-anim="fade-right" style="--d:.5s">
+              <div class="avatars">
+                <img src="https://images.pexels.com/photos/7016799/pexels-photo-7016799.jpeg?auto=compress&cs=tinysrgb&w=120" width="48" height="48" alt="">
+                <img src="https://images.pexels.com/photos/12672215/pexels-photo-12672215.jpeg?auto=compress&cs=tinysrgb&w=120" width="48" height="48" alt="">
+                <img src="https://images.pexels.com/photos/15929275/pexels-photo-15929275/free-photo-of-close-up-of-young-smiling-man.jpeg?auto=compress&cs=tinysrgb&w=120" width="48" height="48" alt="">
+                <span>2k+</span>
+              </div>
+              <div class="stars" aria-label="Rated 4.9 out of 5">★★★★★</div>
+              <h3><span data-count="4.9" data-decimals="1">0</span>/5</h3>
+              <p class="mb-0">Average rating from 2,000+ households and businesses across Greater Gaborone.</p>
+              <hr>
+              <a href="#" class="call">
+                <span class="ico"><i class="bi bi-telephone-fill"></i></span>
+                <span>Need help today?<br><strong class="fs-5">+267 71 000 000</strong></span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <span class="scroll-cue" aria-hidden="true"></span>
+    </section>
+
+    <!-- ===================== CLIENTS MARQUEE ===================== -->
+    <div class="clients">
+      <div class="container">
+        <p data-anim>Trusted by homes, offices and industries from Phakalane to Mogoditshane</p>
+      </div>
+      <div class="marquee" aria-label="Clients">
+        <div class="marquee-track">
+          <span class="client-logo"><i class="bi bi-buildings"></i>Kgale Estates</span>
+          <span class="client-logo"><i class="bi bi-truck"></i>Broadhurst Logistics</span>
+          <span class="client-logo"><i class="bi bi-cup-hot"></i>Phakalane Lodge</span>
+          <span class="client-logo"><i class="bi bi-basket"></i>Molapo Foods</span>
+          <span class="client-logo"><i class="bi bi-heart-pulse"></i>Block 8 Clinic</span>
+          <span class="client-logo"><i class="bi bi-gear-wide-connected"></i>Tlokweng Mills</span>
+          <span class="client-logo"><i class="bi bi-mortarboard"></i>Riverwalk Academy</span>
+        </div>
+        <div class="marquee-track" aria-hidden="true">
+          <span class="client-logo"><i class="bi bi-buildings"></i>Kgale Estates</span>
+          <span class="client-logo"><i class="bi bi-truck"></i>Broadhurst Logistics</span>
+          <span class="client-logo"><i class="bi bi-cup-hot"></i>Phakalane Lodge</span>
+          <span class="client-logo"><i class="bi bi-basket"></i>Molapo Foods</span>
+          <span class="client-logo"><i class="bi bi-heart-pulse"></i>Block 8 Clinic</span>
+          <span class="client-logo"><i class="bi bi-gear-wide-connected"></i>Tlokweng Mills</span>
+          <span class="client-logo"><i class="bi bi-mortarboard"></i>Riverwalk Academy</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- ===================== ABOUT ===================== -->
+    <section class="about cv-auto">
+      <div class="container">
+        <div class="row align-items-center g-5">
+          <div class="col-lg-6">
+            <div class="about-images">
+              <div class="img-main" data-reveal>
+                <img src="https://images.pexels.com/photos/4176548/pexels-photo-4176548.jpeg?auto=compress&cs=tinysrgb&w=900"
+                     width="900" height="1035" loading="lazy" alt="Technician treating an indoor area">
+              </div>
+              <div class="img-sub" data-anim="zoom" style="--d:.4s">
+                <img src="https://images.pexels.com/photos/4176303/pexels-photo-4176303.jpeg?auto=compress&cs=tinysrgb&w=600"
+                     width="600" height="600" loading="lazy" alt="Technician sanitising a room">
+              </div>
+              <div class="exp-badge" data-anim="zoom" style="--d:.6s">
+                <svg viewBox="0 0 150 150" aria-hidden="true">
+                  <defs><path id="circlePath" d="M75,75 m-60,0 a60,60 0 1,1 120,0 a60,60 0 1,1 -120,0"/></defs>
+                  <text><textPath href="#circlePath">PEST CONTROL · GABORONE · SINCE 2011 ·</textPath></text>
+                </svg>
+                <div><strong><span data-count="15">0</span>+</strong><small>Years</small></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="section-title mb-0">
+              <span class="eyebrow" data-anim>About Better Servants</span>
+              <h2 data-split>Serving Botswana with <em>cleaner, safer</em> spaces since 2011</h2>
+              <p data-anim style="--d:.2s">We're a Gaborone-owned company of trained technicians handling everything from a single cockroach problem in a flat to full warehouse fumigation. Every job starts with a proper inspection and ends with a written report.</p>
+            </div>
+
+            <div class="about-points">
+              <div class="about-point" data-anim style="--d:.1s">
+                <span class="ico"><i class="bi bi-shield-check"></i></span>
+                <div><h3>Safe for families</h3><p>Low-odour treatments that are safe around children and pets.</p></div>
+              </div>
+              <div class="about-point" data-anim style="--d:.2s">
+                <span class="ico"><i class="bi bi-award"></i></span>
+                <div><h3>Certified team</h3><p>Registered operators trained in local and SADC regulations.</p></div>
+              </div>
+              <div class="about-point" data-anim style="--d:.3s">
+                <span class="ico"><i class="bi bi-clipboard2-check"></i></span>
+                <div><h3>Audit-ready reports</h3><p>Compliance paperwork for food, health and hospitality.</p></div>
+              </div>
+              <div class="about-point" data-anim style="--d:.4s">
+                <span class="ico"><i class="bi bi-lightning-charge"></i></span>
+                <div><h3>Fast response</h3><p>Same-day visits across Gaborone and surrounding villages.</p></div>
+              </div>
+            </div>
+
+            <div class="about-footer" data-anim>
+              <a href="#" class="btn-default">More About Us <span class="btn-ico"><i class="bi bi-arrow-up-right"></i></span></a>
+              <div class="about-sign">
+                <img src="https://images.pexels.com/photos/36919800/pexels-photo-36919800/free-photo-of-smiling-man-in-traditional-african-attire.jpeg?auto=compress&cs=tinysrgb&w=120" width="56" height="56" loading="lazy" alt="">
+                <div><strong>Thabo Kgosi</strong><span>Founder &amp; Managing Director</span></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== SERVICES ===================== -->
+    <section class="services bg-alt cv-auto">
+      <div class="container">
+        <div class="section-title text-center">
+          <span class="eyebrow" data-anim>Our Services</span>
+          <h2 data-split>Pest control for every <em>kind of space</em></h2>
+          <p data-anim style="--d:.2s">Tailored programmes for households, businesses and heavy industry, delivered by the same accountable team.</p>
+        </div>
+
+        <div class="row g-4">
+          <div class="col-md-6 col-lg-4" data-anim style="--d:0s">
+            <article class="service-card">
+              <span class="service-tag">Residential</span>
+              <div class="service-img">
+                <figure><img src="https://images.pexels.com/photos/4176549/pexels-photo-4176549.jpeg?auto=compress&cs=tinysrgb&w=500" width="500" height="500" loading="lazy" alt="Home interior being treated"></figure>
+                <span class="ico"><i class="bi bi-house-heart"></i></span>
+              </div>
+              <h3>Home Pest Control</h3>
+              <p>Cockroaches, ants, bed bugs and rodents treated room by room, with gentle products made for family homes.</p>
+              <a href="#" class="read-more">Learn more <i class="bi bi-arrow-right"></i></a>
+            </article>
+          </div>
+          <div class="col-md-6 col-lg-4" data-anim style="--d:.1s">
+            <article class="service-card">
+              <span class="service-tag">Commercial</span>
+              <div class="service-img">
+                <figure><img src="https://images.pexels.com/photos/4176417/pexels-photo-4176417.jpeg?auto=compress&cs=tinysrgb&w=500" width="500" height="500" loading="lazy" alt="Office workspace being treated"></figure>
+                <span class="ico"><i class="bi bi-building"></i></span>
+              </div>
+              <h3>Commercial Programmes</h3>
+              <p>Scheduled, discreet service for offices, restaurants, schools and retail, plus documentation for health inspections.</p>
+              <a href="#" class="read-more">Learn more <i class="bi bi-arrow-right"></i></a>
+            </article>
+          </div>
+          <div class="col-md-6 col-lg-4" data-anim style="--d:.2s">
+            <article class="service-card">
+              <span class="service-tag">Industrial</span>
+              <div class="service-img">
+                <figure><img src="https://images.pexels.com/photos/32055757/pexels-photo-32055757/free-photo-of-professional-fumigation-in-warehouse-setting.jpeg?auto=compress&cs=tinysrgb&w=500" width="500" height="500" loading="lazy" alt="Warehouse fumigation"></figure>
+                <span class="ico"><i class="bi bi-buildings"></i></span>
+              </div>
+              <h3>Industrial Fumigation</h3>
+              <p>Warehouse, silo and container fumigation for mines, mills and logistics yards, with minimal operational downtime.</p>
+              <a href="#" class="read-more">Learn more <i class="bi bi-arrow-right"></i></a>
+            </article>
+          </div>
+          <div class="col-md-6 col-lg-4" data-anim style="--d:0s">
+            <article class="service-card">
+              <span class="service-tag">Structural</span>
+              <div class="service-img">
+                <figure><img src="https://images.pexels.com/photos/18087296/pexels-photo-18087296/free-photo-of-woodworm-in-log.jpeg?auto=compress&cs=tinysrgb&w=500" width="500" height="500" loading="lazy" alt="Termite and woodworm damage in timber"></figure>
+                <span class="ico"><i class="bi bi-bricks"></i></span>
+              </div>
+              <h3>Termite Protection</h3>
+              <p>Pre-construction soil treatment and barrier systems that protect roofs, frames and furniture from termites.</p>
+              <a href="#" class="read-more">Learn more <i class="bi bi-arrow-right"></i></a>
+            </article>
+          </div>
+          <div class="col-md-6 col-lg-4" data-anim style="--d:.1s">
+            <article class="service-card">
+              <span class="service-tag">Rodents</span>
+              <div class="service-img">
+                <figure><img src="https://images.pexels.com/photos/69221/pexels-photo-69221.jpeg?auto=compress&cs=tinysrgb&w=500" width="500" height="500" loading="lazy" alt="Rat behind a wire mesh"></figure>
+                <span class="ico"><i class="bi bi-bug"></i></span>
+              </div>
+              <h3>Rodent Control</h3>
+              <p>Tamper-proof bait stations, proofing and monitoring to keep rats and mice out of homes and stores.</p>
+              <a href="#" class="read-more">Learn more <i class="bi bi-arrow-right"></i></a>
+            </article>
+          </div>
+          <div class="col-md-6 col-lg-4" data-anim style="--d:.2s">
+            <article class="service-card">
+              <span class="service-tag">Outdoor</span>
+              <div class="service-img">
+                <figure><img src="https://images.pexels.com/photos/19789837/pexels-photo-19789837/free-photo-of-pest-exterminator-fogging-the-yard.jpeg?auto=compress&cs=tinysrgb&w=500" width="500" height="500" loading="lazy" alt="Technician fogging a yard"></figure>
+                <span class="ico"><i class="bi bi-droplet-half"></i></span>
+              </div>
+              <h3>Mosquito &amp; Fly Fogging</h3>
+              <p>Yard, estate and event fogging that knocks down mosquitoes and flies, which matters most in the rainy season.</p>
+              <a href="#" class="read-more">Learn more <i class="bi bi-arrow-right"></i></a>
+            </article>
+          </div>
+        </div>
+
+        <div class="section-footer-note" data-anim>
+          <span class="pill">Free</span>
+          <span>Site inspections across Gaborone, with no obligation to book.</span>
+          <a href="#">Request yours today</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== WHY CHOOSE US ===================== -->
+    <section class="why cv-auto">
+      <div class="container">
+        <div class="row align-items-center g-5">
+          <div class="col-lg-6">
+            <div class="section-title mb-0">
+              <span class="eyebrow" data-anim>Why Choose Us</span>
+              <h2 data-split>Reliable, <em>affordable</em> and proudly local</h2>
+              <p data-anim style="--d:.2s">We know Botswana's pests and its seasons, from summer termite swarms to winter rodent pressure, and plan each treatment around them.</p>
+            </div>
+            <div class="why-list">
+              <div class="why-item" data-anim style="--d:.1s">
+                <span class="num">01</span>
+                <div><h3>Inspection before treatment</h3><p>We find the source and entry points first, so treatments target the actual problem.</p></div>
+              </div>
+              <div class="why-item" data-anim style="--d:.2s">
+                <span class="num">02</span>
+                <div><h3>Transparent Pula pricing</h3><p>Fixed quotes in BWP before we start, with no call-out surprises or hidden extras.</p></div>
+              </div>
+              <div class="why-item" data-anim style="--d:.3s">
+                <span class="num">03</span>
+                <div><h3>Guaranteed results</h3><p>If pests return within the warranty period, we come back and re-treat at no charge.</p></div>
+              </div>
+            </div>
+            <a href="#" class="btn-default" data-anim>Talk to an Expert <span class="btn-ico"><i class="bi bi-arrow-up-right"></i></span></a>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="why-images">
+              <figure class="tall" data-reveal>
+                <img src="https://images.pexels.com/photos/9246010/pexels-photo-9246010.jpeg?auto=compress&cs=tinysrgb&w=700" width="700" height="1167" loading="lazy" alt="Technician in uniform and mask">
+              </figure>
+              <figure class="short" data-anim="zoom" style="--d:.3s">
+                <img src="https://images.pexels.com/photos/4176412/pexels-photo-4176412.jpeg?auto=compress&cs=tinysrgb&w=600" width="600" height="660" loading="lazy" alt="Technician using fumigation equipment">
+              </figure>
+              <div class="why-stat" data-anim style="--d:.5s">
+                <strong><span data-count="98">0</span>%</strong>
+                <span>of clients renew their service plan with us every year.</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== FEATURES (dark parallax) ===================== -->
+    <section class="features dark-section cv-auto">
+      <div class="parallax-bg" data-parallax="0.15" aria-hidden="true">
+        <img src="https://images.pexels.com/photos/36302077/pexels-photo-36302077/free-photo-of-worker-fumigating-industrial-warehouse.jpeg?auto=compress&cs=tinysrgb&w=1600" width="1600" height="1067" loading="lazy" alt="">
+      </div>
+      <div class="container">
+        <div class="section-title text-center">
+          <span class="eyebrow" data-anim>What Sets Us Apart</span>
+          <h2 data-split>Core features behind <em>every visit</em></h2>
+        </div>
+        <div class="row g-4">
+          <div class="col-sm-6 col-lg-3" data-anim style="--d:0s">
+            <div class="feature-card">
+              <span class="ico"><i class="bi bi-flower1"></i></span>
+              <h3>Eco-conscious products</h3>
+              <p>Targeted, low-toxicity formulations that protect gardens, pets and boreholes.</p>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-3" data-anim style="--d:.1s">
+            <div class="feature-card">
+              <span class="ico"><i class="bi bi-person-badge"></i></span>
+              <h3>Vetted technicians</h3>
+              <p>Uniformed, background-checked staff who respect your home and business.</p>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-3" data-anim style="--d:.2s">
+            <div class="feature-card">
+              <span class="ico"><i class="bi bi-calendar2-check"></i></span>
+              <h3>Flexible scheduling</h3>
+              <p>Early-morning, after-hours and weekend slots so your operations keep running.</p>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-3" data-anim style="--d:.3s">
+            <div class="feature-card">
+              <span class="ico"><i class="bi bi-graph-up-arrow"></i></span>
+              <h3>Digital service logs</h3>
+              <p>Photo reports and trend tracking for every site, available whenever you need them.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="feature-strip">
+        <div class="marquee">
+          <div class="marquee-track">
+            <span>Residential <i class="bi bi-asterisk"></i></span>
+            <span>Commercial <i class="bi bi-asterisk"></i></span>
+            <span>Industrial <i class="bi bi-asterisk"></i></span>
+            <span>Fumigation <i class="bi bi-asterisk"></i></span>
+            <span>Termite Barriers <i class="bi bi-asterisk"></i></span>
+            <span>Rodent Proofing <i class="bi bi-asterisk"></i></span>
+          </div>
+          <div class="marquee-track" aria-hidden="true">
+            <span>Residential <i class="bi bi-asterisk"></i></span>
+            <span>Commercial <i class="bi bi-asterisk"></i></span>
+            <span>Industrial <i class="bi bi-asterisk"></i></span>
+            <span>Fumigation <i class="bi bi-asterisk"></i></span>
+            <span>Termite Barriers <i class="bi bi-asterisk"></i></span>
+            <span>Rodent Proofing <i class="bi bi-asterisk"></i></span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== PESTS WE TREAT ===================== -->
+    <section class="pests bg-alt cv-auto">
+      <div class="container">
+        <div class="row align-items-end">
+          <div class="col-lg-7">
+            <div class="section-title">
+              <span class="eyebrow" data-anim>Pests We Eliminate</span>
+              <h2 data-split>Common pests, handled by <em>uncommon experts</em></h2>
+            </div>
+          </div>
+          <div class="col-lg-5">
+            <p class="mb-5" data-anim>Hover or tap a card to see how we deal with each pest. Not on the list? We handle bees, snakes and birds too.</p>
+          </div>
+        </div>
+
+        <div class="row g-4">
+          <div class="col-sm-6 col-lg-3" data-anim style="--d:0s">
+            <a href="#" class="pest-card d-block">
+              <img src="https://images.pexels.com/photos/19294665/pexels-photo-19294665/free-photo-of-close-up-of-cockroach.jpeg?auto=compress&cs=tinysrgb&w=600" width="600" height="720" loading="lazy" alt="Cockroach close-up">
+              <div class="pest-body"><span class="tag">Kitchens · Drains</span><h3>Cockroaches</h3><p>Gel baiting and crack-and-crevice sprays that clear colonies at the source.</p></div>
+            </a>
+          </div>
+          <div class="col-sm-6 col-lg-3" data-anim style="--d:.1s">
+            <a href="#" class="pest-card d-block">
+              <img src="https://images.pexels.com/photos/32681811/pexels-photo-32681811/free-photo-of-macro-shot-of-ants-and-aphids-on-plant-stem.jpeg?auto=compress&cs=tinysrgb&w=600" width="600" height="720" loading="lazy" alt="Ants on a plant stem">
+              <div class="pest-body"><span class="tag">Gardens · Pantries</span><h3>Ants</h3><p>Colony-transfer baits that reach the queen instead of just the trail.</p></div>
+            </a>
+          </div>
+          <div class="col-sm-6 col-lg-3" data-anim style="--d:.2s">
+            <a href="#" class="pest-card d-block">
+              <img src="https://images.pexels.com/photos/14512575/pexels-photo-14512575.jpeg?auto=compress&cs=tinysrgb&w=600" width="600" height="720" loading="lazy" alt="Housefly macro">
+              <div class="pest-body"><span class="tag">Food · Hospitality</span><h3>Flies</h3><p>UV fly units, residual treatments and hygiene advice for food handlers.</p></div>
+            </a>
+          </div>
+          <div class="col-sm-6 col-lg-3" data-anim style="--d:.3s">
+            <a href="#" class="pest-card d-block">
+              <img src="https://images.pexels.com/photos/38680283/pexels-photo-38680283/free-photo-of-close-up-of-a-vibrant-paper-wasp-nest-under-eaves.jpeg?auto=compress&cs=tinysrgb&w=600" width="600" height="720" loading="lazy" alt="Wasp nest under eaves">
+              <div class="pest-body"><span class="tag">Roofs · Eaves</span><h3>Wasps &amp; Bees</h3><p>Safe nest removal, with bee relocation wherever possible.</p></div>
+            </a>
+          </div>
+        </div>
+
+        <div class="counter-row" data-anim>
+          <div class="counter-item"><strong><span data-count="12500">0</span>+</strong><span>Treatments completed</span></div>
+          <div class="counter-item"><strong><span data-count="850">0</span>+</strong><span>Commercial contracts</span></div>
+          <div class="counter-item"><strong><span data-count="45">0</span></strong><span>Trained technicians</span></div>
+          <div class="counter-item"><strong><span data-count="24">0</span>/7</strong><span>Emergency response</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== PROCESS ===================== -->
+    <section class="process cv-auto">
+      <div class="container">
+        <div class="row g-5">
+          <div class="col-lg-6">
+            <div class="section-title mb-0">
+              <span class="eyebrow" data-anim>How It Works</span>
+              <h2 data-split>Our four-step process for <em>lasting results</em></h2>
+              <p data-anim style="--d:.2s">A simple, documented process that removes pests and keeps them away.</p>
+            </div>
+            <div class="process-steps">
+              <div class="process-step" data-anim style="--d:.05s">
+                <span class="step-no">01</span>
+                <div><h3>Book &amp; inspect</h3><p>Call, WhatsApp or book online. A technician surveys the site and identifies the species and entry points.</p></div>
+              </div>
+              <div class="process-step" data-anim style="--d:.15s">
+                <span class="step-no">02</span>
+                <div><h3>Custom treatment plan</h3><p>You get a clear written plan and a fixed quote in Pula before any work begins.</p></div>
+              </div>
+              <div class="process-step" data-anim style="--d:.25s">
+                <span class="step-no">03</span>
+                <div><h3>Safe, targeted treatment</h3><p>We apply the right method for the pest and the space, keeping disruption to a minimum.</p></div>
+              </div>
+              <div class="process-step" data-anim style="--d:.35s">
+                <span class="step-no">04</span>
+                <div><h3>Follow-up &amp; prevention</h3><p>Check-in visits, proofing advice and a service certificate for your records.</p></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="process-image" data-reveal>
+              <img src="https://images.pexels.com/photos/4176370/pexels-photo-4176370.jpeg?auto=compress&cs=tinysrgb&w=1000" width="1000" height="1250" loading="lazy" alt="Technician using fogging equipment indoors">
+              <div class="badge-float">
+                <i class="bi bi-patch-check"></i>
+                <div><strong>Service certificate on every job</strong>Accepted for health, food-safety and tenancy inspections.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== PRICING ===================== -->
+    <section class="pricing bg-alt cv-auto">
+      <div class="container">
+        <div class="section-title text-center mb-4">
+          <span class="eyebrow" data-anim>Pricing Plans</span>
+          <h2 data-split>Clear plans, <em>priced in Pula</em></h2>
+          <p data-anim style="--d:.2s">Starting prices for typical properties. Your free inspection confirms the final quote.</p>
+        </div>
+
+        <div class="text-center" data-anim>
+          <div class="billing-toggle" role="group" aria-label="Billing period">
+            <button type="button" class="active" data-billing="monthly">Monthly</button>
+            <button type="button" data-billing="yearly">Yearly <span class="save">Save 15%</span></button>
+          </div>
+        </div>
+
+        <div class="row g-4">
+          <div class="col-md-6 col-lg-4" data-anim style="--d:0s">
+            <div class="price-card">
+              <span class="plan-ico"><i class="bi bi-house"></i></span>
+              <h3>Home Shield</h3>
+              <p class="mb-0">For houses and apartments up to 4 bedrooms.</p>
+              <div class="price"><span class="cur">P</span><span class="amount" data-monthly="450" data-yearly="4,590">450</span><span class="per" data-per>/ month</span></div>
+              <p class="price-note">Includes general crawling-insect cover.</p>
+              <ul class="price-list">
+                <li><i class="bi bi-check2-circle"></i>Quarterly full-home treatment</li>
+                <li><i class="bi bi-check2-circle"></i>Cockroach, ant &amp; spider control</li>
+                <li><i class="bi bi-check2-circle"></i>Rodent monitoring stations</li>
+                <li><i class="bi bi-check2-circle"></i>Free call-backs between visits</li>
+              </ul>
+              <a href="#" class="btn-default">Choose Plan <span class="btn-ico"><i class="bi bi-arrow-up-right"></i></span></a>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4" data-anim style="--d:.1s">
+            <div class="price-card featured">
+              <span class="ribbon">Most Popular</span>
+              <span class="plan-ico"><i class="bi bi-shop"></i></span>
+              <h3>Business Guard</h3>
+              <p class="mb-0">For offices, restaurants, shops and clinics.</p>
+              <div class="price"><span class="cur">P</span><span class="amount" data-monthly="1,250" data-yearly="12,750">1,250</span><span class="per" data-per>/ month</span></div>
+              <p class="price-note">Compliance documents included.</p>
+              <ul class="price-list">
+                <li><i class="bi bi-check2-circle"></i>Monthly scheduled service</li>
+                <li><i class="bi bi-check2-circle"></i>Fly units &amp; rodent bait stations</li>
+                <li><i class="bi bi-check2-circle"></i>Audit-ready digital logbook</li>
+                <li><i class="bi bi-check2-circle"></i>Priority 4-hour response</li>
+              </ul>
+              <a href="#" class="btn-default btn-light-variant">Choose Plan <span class="btn-ico"><i class="bi bi-arrow-up-right"></i></span></a>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4" data-anim style="--d:.2s">
+            <div class="price-card">
+              <span class="plan-ico"><i class="bi bi-gear-wide-connected"></i></span>
+              <h3>Industrial Pro</h3>
+              <p class="mb-0">For warehouses, factories, mines and silos.</p>
+              <div class="price"><span class="cur">P</span><span class="amount" data-monthly="3,800" data-yearly="38,760">3,800</span><span class="per" data-per>/ month</span></div>
+              <p class="price-note">Custom site-wide programme.</p>
+              <ul class="price-list">
+                <li><i class="bi bi-check2-circle"></i>Dedicated account technician</li>
+                <li><i class="bi bi-check2-circle"></i>Stored-product &amp; fumigation cover</li>
+                <li><i class="bi bi-check2-circle"></i>Quarterly trend analysis report</li>
+                <li><i class="bi bi-check2-circle"></i>24/7 emergency call-outs</li>
+              </ul>
+              <a href="#" class="btn-default">Choose Plan <span class="btn-ico"><i class="bi bi-arrow-up-right"></i></span></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="pricing-benefits" data-anim>
+          <span><i class="bi bi-cash-coin"></i>Pay by EFT, card or Orange Money</span>
+          <span><i class="bi bi-arrow-repeat"></i>Cancel anytime on monthly plans</span>
+          <span><i class="bi bi-receipt"></i>VAT-inclusive Pula pricing</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== TESTIMONIALS ===================== -->
+    <section class="testimonials dark-section cv-auto">
+      <div class="container">
+        <div class="row align-items-stretch g-5">
+          <div class="col-lg-5">
+            <div class="testimonial-img" data-reveal>
+              <img src="https://images.pexels.com/photos/4176366/pexels-photo-4176366.jpeg?auto=compress&cs=tinysrgb&w=900" width="900" height="1200" loading="lazy" alt="Technician fumigating a room">
+              <div class="rating-box">
+                <strong>4.9</strong> <span class="stars">★★★★★</span>
+                <div class="small fw-semibold">from 1,200+ Google reviews</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-7 d-flex flex-column justify-content-center">
+            <div class="section-title mb-4">
+              <span class="eyebrow" data-anim>Testimonials</span>
+              <h2 data-split>What our clients <em>say about us</em></h2>
+            </div>
+
+            <div class="t-slider" data-anim id="tSlider">
+              <div class="t-viewport">
+                <div class="t-track">
+                  <div class="t-slide">
+                    <i class="bi bi-quote t-quote-ico" aria-hidden="true"></i>
+                    <blockquote>"We'd fought cockroaches in our Block 6 house for years. Better Servants did a proper inspection, treated once, followed up, and we haven't seen one since."</blockquote>
+                    <div class="t-author">
+                      <img src="https://images.pexels.com/photos/7016799/pexels-photo-7016799.jpeg?auto=compress&cs=tinysrgb&w=160" width="64" height="64" loading="lazy" alt="">
+                      <div><strong>Lesego M.</strong><span class="stars">★★★★★</span> · Homeowner, Gaborone</div>
+                    </div>
+                  </div>
+                  <div class="t-slide">
+                    <i class="bi bi-quote t-quote-ico" aria-hidden="true"></i>
+                    <blockquote>"As a restaurant we can't afford a failed inspection. Their monthly service and digital logbook made our last health audit painless."</blockquote>
+                    <div class="t-author">
+                      <img src="https://images.pexels.com/photos/15929275/pexels-photo-15929275/free-photo-of-close-up-of-young-smiling-man.jpeg?auto=compress&cs=tinysrgb&w=160" width="64" height="64" loading="lazy" alt="">
+                      <div><strong>Kabelo T.</strong><span class="stars">★★★★★</span> · Restaurant Owner, Main Mall</div>
+                    </div>
+                  </div>
+                  <div class="t-slide">
+                    <i class="bi bi-quote t-quote-ico" aria-hidden="true"></i>
+                    <blockquote>"They fumigated our grain warehouse over a weekend with zero downtime on Monday. Professional, on schedule and well documented."</blockquote>
+                    <div class="t-author">
+                      <img src="https://images.pexels.com/photos/12672215/pexels-photo-12672215.jpeg?auto=compress&cs=tinysrgb&w=160" width="64" height="64" loading="lazy" alt="">
+                      <div><strong>Naledi S.</strong><span class="stars">★★★★★</span> · Operations Manager, Gaborone West</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="t-controls">
+                <button class="t-btn" type="button" data-dir="-1" aria-label="Previous testimonial"><i class="bi bi-arrow-left"></i></button>
+                <button class="t-btn" type="button" data-dir="1" aria-label="Next testimonial"><i class="bi bi-arrow-right"></i></button>
+                <div class="t-dots" role="tablist" aria-label="Choose testimonial"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== BLOG ===================== -->
+    <section class="blog cv-auto">
+      <div class="container">
+        <div class="row align-items-end">
+          <div class="col-lg-8">
+            <div class="section-title">
+              <span class="eyebrow" data-anim>Knowledge Centre</span>
+              <h2 data-split>Pest tips from our <em>field team</em></h2>
+            </div>
+          </div>
+          <div class="col-lg-4 text-lg-end mb-5" data-anim>
+            <a href="#" class="btn-default">View All Articles <span class="btn-ico"><i class="bi bi-arrow-up-right"></i></span></a>
+          </div>
+        </div>
+        <div class="row g-4">
+          <div class="col-md-6 col-lg-4" data-anim style="--d:0s">
+            <a href="#" class="post-card">
+              <img src="https://images.pexels.com/photos/4894608/pexels-photo-4894608.jpeg?auto=compress&cs=tinysrgb&w=800" width="800" height="1000" loading="lazy" alt="Spraying a garden">
+              <span class="post-date"><strong>02</strong>Oct</span>
+              <div class="post-body">
+                <span class="cat">Seasonal</span>
+                <h3>Preparing your yard for termite swarm season after the first rains</h3>
+                <span class="read-more">Read more <i class="bi bi-arrow-right"></i></span>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-6 col-lg-4" data-anim style="--d:.1s">
+            <a href="#" class="post-card">
+              <img src="https://images.pexels.com/photos/8458858/pexels-photo-8458858.jpeg?auto=compress&cs=tinysrgb&w=800" width="800" height="1000" loading="lazy" alt="Cockroach on a surface">
+              <span class="post-date"><strong>18</strong>Sep</span>
+              <div class="post-body">
+                <span class="cat">Home</span>
+                <h3>Five kitchen habits that quietly invite cockroaches in</h3>
+                <span class="read-more">Read more <i class="bi bi-arrow-right"></i></span>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-6 col-lg-4" data-anim style="--d:.2s">
+            <a href="#" class="post-card">
+              <img src="https://images.pexels.com/photos/4176228/pexels-photo-4176228.jpeg?auto=compress&cs=tinysrgb&w=800" width="800" height="1000" loading="lazy" alt="Technician fogging indoors">
+              <span class="post-date"><strong>04</strong>Sep</span>
+              <div class="post-body">
+                <span class="cat">Business</span>
+                <h3>What health inspectors look for in a commercial pest log</h3>
+                <span class="read-more">Read more <i class="bi bi-arrow-right"></i></span>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== CTA ===================== -->
+    <div class="cta-band">
+      <div class="container">
+        <div class="cta-box" data-anim="zoom">
+          <h2>Seen a pest today? We can usually be there today too.</h2>
+          <a href="#" class="btn-default btn-light-variant">Call +267 71 000 000 <span class="btn-ico"><i class="bi bi-telephone"></i></span></a>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="main-footer dark-section">
+    <div class="container">
+      <div class="row g-5">
+        <div class="col-lg-4 col-md-6">
+          <a href="#" class="footer-brand"><img src="assets/images/logo.png" width="150" height="62" loading="lazy" alt="Better Servants"></a>
+          <p>Better Servants (Proprietary) Limited provides commercial, residential and industrial pest control throughout Gaborone and southern Botswana.</p>
+          <div class="footer-social">
+            <a href="#" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+            <a href="#" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+            <a href="#" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+            <a href="#" aria-label="WhatsApp"><i class="bi bi-whatsapp"></i></a>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-6 col-6">
+          <h4>Quick Links</h4>
+          <ul class="footer-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Pricing</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Careers</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-2 col-md-6 col-6">
+          <h4>Services</h4>
+          <ul class="footer-links">
+            <li><a href="#">Residential</a></li>
+            <li><a href="#">Commercial</a></li>
+            <li><a href="#">Industrial</a></li>
+            <li><a href="#">Termites</a></li>
+            <li><a href="#">Fumigation</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <h4>Get in Touch</h4>
+          <ul class="footer-contact">
+            <li><i class="bi bi-telephone"></i><span>+267 71 000 000 · +267 390 0000</span></li>
+            <li><i class="bi bi-envelope"></i><span>hello@betterservants-demo.co.bw</span></li>
+            <li><i class="bi bi-geo-alt"></i><span>Plot 00000, Gaborone West Industrial, Gaborone</span></li>
+          </ul>
+          <form class="newsletter-form" id="newsletter" novalidate>
+            <label for="nlEmail" class="visually-hidden">Email address</label>
+            <input type="email" id="nlEmail" placeholder="Your email for seasonal pest alerts" required>
+            <button type="submit" aria-label="Subscribe"><i class="bi bi-send"></i></button>
+          </form>
+          <div class="form-msg" id="nlMsg" aria-live="polite"></div>
+          <p class="footer-hours mb-0"><strong>Mon – Sat:</strong> 07:30 – 18:00 · <strong>Sun:</strong> Emergencies only</p>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <span>© <span id="year">2026</span> Better Servants (Pty) Ltd. All rights reserved. Website prototype.</span>
+        <span><a href="#">Privacy Policy</a> · <a href="#">Terms of Service</a></span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to top -->
+  <button class="to-top" id="toTop" type="button" aria-label="Back to top">
+    <svg viewBox="0 0 52 52" aria-hidden="true"><circle cx="26" cy="26" r="24"/></svg>
+    <i class="bi bi-arrow-up"></i>
+  </button>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" defer></script>
+  <script src="js/main.js" defer></script>
+</body>
+</html>
